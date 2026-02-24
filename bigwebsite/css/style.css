@@ -1,0 +1,120 @@
+body {
+    width: 3000px;
+    height: 3000px;
+    background-color: #fff5e6; 
+    font-family: 'Comic Sans MS', 'Chalkboard SE', sans-serif;
+    overflow: auto; 
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #ff6b81; 
+    font-size: 50px;
+    text-align: center;
+    text-decoration: wavy underline #ffb6c1;
+    margin-top: 30px;
+}
+
+.paw-print-span {
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    background-color: #ffb6c1; 
+    padding: 5px 10px;
+    border-radius: 20px; 
+}
+
+#the-food-bowl {
+    border: 8px dotted #ffa500; 
+    width: 400px;
+    padding: 40px;
+    text-align: center;
+    position: absolute;
+    top: 1500px;
+    left: 1500px;
+    background-color: white;
+    border-radius: 50%; 
+}
+
+.hidden-text {
+    position: absolute;
+    font-size: 24px;
+    color: #888;
+    opacity: 0.6;
+}
+
+.meow-one {
+    top: 400px;
+    left: 800px;
+    transform: rotate(-20deg);
+}
+
+.purr-two {
+    top: 2200px;
+    left: 200px;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+.food-three {
+    top: 1000px;
+    left: 2500px;
+    color: darkblue;
+    font-weight: bold;
+}
+
+.hidden-cat {
+    opacity: 0.9; 
+    border: 5px solid pink;
+    position: absolute; 
+}
+
+.cat-one {
+    width: 300px;
+    top: 600px;
+    left: 1800px;
+    transform: rotate(10deg);
+}
+
+.cat-two {
+    width: 300px;
+    top: 200px;
+    left: 300px;
+    transform: rotate(-15deg);
+    border-color: lightblue;
+}
+
+.cat-three {
+    width: 400px;
+    top: 2000px;
+    left: 400px;
+    transform: rotate(5deg);
+    border-color: lightgreen;
+}
+
+.cat-four {
+    width: 350px;
+    top: 2500px;
+    left: 2000px;
+    border-radius: 50%;
+}
+
+.cat-five {
+    width: 250px;
+    top: 100px;
+    left: 2400px;
+    opacity: 0.5;
+}
+
+.secret-treat-stash {
+    position: absolute;
+    top: 2800px;
+    left: 2700px;
+    margin: 20px;
+    font-size: 24px;
+    color: #5c3d2e; 
+    background-color: #98fb98; 
+    padding: 20px;
+    border: 3px dashed green;
+}
