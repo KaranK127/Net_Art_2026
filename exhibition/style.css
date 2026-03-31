@@ -1,0 +1,106 @@
+/* Universal Settings */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Background and Typography */
+body {
+    /* Font Stack using the Monospace category */
+    font-family: "Courier New", Courier, monospace; 
+    background-color: #1a1a1a; /* Dark gray background */
+    color: #e0e0e0; /* Light gray text for readability */
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #000000;
+    border-bottom: 3px solid #00ff00; /* Neon green accent border */
+    margin-bottom: 40px;
+}
+
+header h1 {
+    color: #00ff00; /* Neon green text */
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header h3 {
+    color: #aaaaaa;
+    font-style: italic;
+}
+
+/* Main Layout */
+main {
+    max-width: 900px;
+    margin: 0 auto; /* Centers the content on the page */
+}
+
+/* Curatorial Text Section */
+.curatorial-text {
+    background-color: rgba(0, 255, 0, 0.05); /* RGBA color with low transparency */
+    border: 1px solid #00ff00;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+.curatorial-text h2 {
+    color: #00ff00;
+    margin-bottom: 15px;
+}
+
+.curatorial-text p {
+    margin-bottom: 15px;
+}
+
+/* Artworks Grid Layout */
+.artworks {
+    display: flex;
+    flex-direction: column;
+    gap: 40px; /* Space between each artwork */
+}
+
+.artwork-card {
+    background-color: #222222;
+    padding: 20px;
+    border-left: 5px solid #00ff00;
+}
+
+.artwork-card img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #444444;
+    margin-bottom: 15px;
+}
+
+.artwork-card h2 {
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.details {
+    color: #00ff00;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+}
+
+/* Links */
+a {
+    display: inline-block;
+    margin-top: 15px;
+    color: #1a1a1a;
+    background-color: #00ff00;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
