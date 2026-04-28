@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transformation: Calm to Chaos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="scene-calm" class="scene active">
+        <h1>Click the button below for a surprise</h1>
+        <button id="btn-surprise" class="red-circle-btn"></button>
+    </div>
+
+    <div id="scene-disco" class="scene hidden">
+        <div class="disco-container">
+            <img src="discoball.png" id="disco-ball" alt="Disco Ball">
+            <div class="penguins">
+                <img src="penguin1.png" id="percy" class="penguin" alt="Percy the Penguin">
+                <img src="penguin2.png" id="pink-penguin" class="penguin" alt="Penny the Penguin">
+            </div>
+            <h2 id="disco-caption">Percy and Penny are tearing up the dance floor!</h2>
+        </div>
+        
+        <div class="chaos-shape shape1">🎵</div>
+        <div class="chaos-shape shape2">✨</div>
+        <div class="chaos-shape shape3">🔊</div>
+        <div class="chaos-shape shape4">🎶</div>
+
+        <button id="btn-dogs" class="action-btn">Click This if You Like Dogs Better!!</button>
+    </div>
+
+    <div id="scene-dogs" class="scene hidden">
+        <div class="chase-track">
+            <img src="ball (2).png" id="tennis-ball" alt="Tennis Ball">
+            <img src="dog.png.png" id="chasing-dog" alt="Dog">
+        </div>
+        <button id="btn-back" class="action-btn">Back to Start</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
